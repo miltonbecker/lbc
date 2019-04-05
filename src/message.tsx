@@ -1,6 +1,16 @@
 import React from 'react';
 
-export function Message(props) {
+type MessageProps = {
+  key: any;
+  message: {
+    id: string;
+    author: string;
+    text: string;
+    confidential: boolean;
+  }
+}
+
+export function Message(props: MessageProps) {
   const { message } = props;
   const { author, text, confidential } = message;
   const messageStyle = confidential ? 'message confidential' : 'message';

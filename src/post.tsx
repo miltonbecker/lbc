@@ -1,6 +1,14 @@
 import React from 'react';
 
-export function Post(props) {
+type PostProps = {
+  textRef: React.ref;
+  handlePost: (event: Event) => void;
+  confidential: boolean;
+  handleConfidentialChange: () => void;
+  loggedIn: boolean;
+}
+
+export function Post(props: PostProps) {
   const { textRef, handlePost, confidential, handleConfidentialChange, loggedIn } = props;
   return (
     <div className="post">

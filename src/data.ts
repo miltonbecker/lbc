@@ -1,6 +1,13 @@
 import apiResponse from '../messages.json';
 
-let data = apiResponse.data;
+type Message = {
+  id: string;
+  author: string;
+  text: string;
+  confidential: boolean;
+};
+
+let data: Message[] = apiResponse.data;
 
 export function logIn(/* credentials would go here */) {
   return apiResponse.userName;
