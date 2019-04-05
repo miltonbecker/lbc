@@ -1,0 +1,86 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 0 15px;
+}
+
+p {
+  padding: 5px;
+  margin: 0;
+}
+
+button {
+  margin: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.messagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: aliceblue;
+  border: 1px solid dodgerblue;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.confidential {
+  background-color: mistyrose;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: bisque;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

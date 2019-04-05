@@ -1,0 +1,29 @@
+{
+  "userName": "New user",
+  "data": [
+    {
+      "id": "494415979461168",
+      "author": "Mike Smith",
+      "text": "Hello there",
+      "confidential": false
+    },
+    {
+      "id": "494415979461169",
+      "author": "Jean-Pierre",
+      "text": "Oh hi!",
+      "confidential": false
+    },
+    {
+      "id": "494415979461170",
+      "author": "Jean-Pierre",
+      "text": "This is a private message.",
+      "confidential": true
+    },
+    {
+      "id": "494415979461171",
+      "author": "Mike Smith",
+      "text": "What's up?",
+      "confidential": false
+    }
+  ]
+}
