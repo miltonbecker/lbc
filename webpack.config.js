@@ -26,7 +26,7 @@ module.exports = {
       filename: 'styles.css',
     }),
     new HtmlWebpackPlugin({
-      title: 'Side Test',
+      title: 'Test',
     }),
   ],
   devServer: {

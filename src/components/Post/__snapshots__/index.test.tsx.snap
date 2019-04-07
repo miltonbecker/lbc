@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Renders correctly when logged in 1`] = `
+<div
+  className="post"
+>
+  <h2>
+    Add message
+  </h2>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <textarea
+      cols="50"
+      rows="6"
+    />
+    <label
+      className="checkbox"
+    >
+      <input
+        checked={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+       
+      Confidential
+    </label>
+    <button>
+      Post
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Post Renders correctly when not logged in 1`] = `
+<div
+  className="post"
+>
+  <h2>
+    Add message
+  </h2>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <textarea
+      cols="50"
+      rows="6"
+    />
+    <button>
+      Post
+    </button>
+  </form>
+</div>
+`;

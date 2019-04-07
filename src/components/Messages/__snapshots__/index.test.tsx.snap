@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages Renders correctly 1`] = `
+<div
+  className="container"
+>
+  <section
+    className="header"
+  >
+    <h1>
+      Messages
+    </h1>
+    <button
+      disabled={false}
+      onClick={[Function]}
+    >
+      Log in
+    </button>
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      Log out
+    </button>
+  </section>
+  <div
+    className="post"
+  >
+    <h2>
+      Add message
+    </h2>
+    <form
+      className="form"
+      onSubmit={[Function]}
+    >
+      <textarea
+        cols="50"
+        rows="6"
+      />
+      <button>
+        Post
+      </button>
+    </form>
+  </div>
+  <p>
+    Fetching messages...
+  </p>
+</div>
+`;

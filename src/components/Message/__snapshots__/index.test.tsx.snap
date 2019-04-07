@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Renders confidential messages correctly 1`] = `
+<div
+  className="message confidential"
+>
+  <p
+    className="author"
+  >
+    Jean
+  </p>
+  <p>
+    Test message.
+  </p>
+</div>
+`;
+
+exports[`Message Renders non confidential messages correctly 1`] = `
+<div
+  className="message"
+>
+  <p
+    className="author"
+  >
+    Jean-Pierre
+  </p>
+  <p>
+    Test public message.
+  </p>
+</div>
+`;
