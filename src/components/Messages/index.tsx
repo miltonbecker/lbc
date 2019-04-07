@@ -18,7 +18,7 @@ export function Messages() {
   // to be able to change the textarea's value
   const textRef = useRef('');
 
-  // executed after logging in or out
+  // executed on the first render and after logging in or out
   useEffect(() => {
     fetchMessages(loggedIn)
       .then(data => {
